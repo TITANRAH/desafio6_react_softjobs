@@ -16,7 +16,7 @@ export default function RegistroForm() {
   };
 
   const iniciarSesion = async () => {
-    const urlServer = "https://desafio6nodesoft-production.up.railway.app/usuarios";
+    const urlServer = "https://desafio6nodesoft-production.up.railway.app";
     const endpoint = "/login";
     const { email, password } = usuario;
     try {
