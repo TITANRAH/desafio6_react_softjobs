@@ -5,7 +5,7 @@ export default function Form() {
 
     const registrarUsuario = async () => {
         try {
-            await axios.post("http://localhost:4000/usuarios", {usuario})
+            await axios.post("https://desafio6nodesoft-production.up.railway.app:4000/usuarios", {usuario})
             alert("Usuario agregado con éxito")
         } catch (error) {
             alert("Algo salió mal")
