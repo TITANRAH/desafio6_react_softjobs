@@ -13,7 +13,7 @@ export default function RegistroForm() {
   };
 
   const registrarUsuario = async () => {
-    const urlServer = "http://localhost:4000";
+    const urlServer = "https://desafio6nodesoft-production.up.railway.app:4000/";
     const endpoint = "/usuarios";
     try {
       await axios.post(urlServer + endpoint, usuario);
