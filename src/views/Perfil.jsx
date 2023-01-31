@@ -8,7 +8,7 @@ export default function Home() {
   const [usuario, setUsuarioLocal] = useState({});
 
   const getUsuarioData = async () => {
-    const urlServer = "https://desafio6nodesoft-production.up.railway.app:4000/";
+    const urlServer = "https://containers-us-west-188.railway.app/";
     const endpoint = "/usuarios";
     const token = localStorage.getItem("token");
     console.log('token desde front',token)
